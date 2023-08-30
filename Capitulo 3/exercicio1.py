@@ -12,9 +12,4 @@ print('Ordem alfabetica:')
 print(sorted(times))
 
 print('Posicao de Barcelona:')
-i = 0
-while i < 5:
-    if 'Barcelona' == times[i]:
-        print(i + 1)
-        break
-    i += 1
+print((times.index("Barcelona") + 1), "lugar")
